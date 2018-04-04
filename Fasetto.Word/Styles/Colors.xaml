@@ -17,4 +17,19 @@
     <Color x:Key="ForgroundLight">#ffffff</Color>
     <SolidColorBrush x:Key="ForgroundLightBrush" Color="{StaticResource ForgroundLight}" />
 
+    <Color x:Key="ForgroundDark">#bdbdbd</Color>
+    <SolidColorBrush x:Key="ForgroundDarkBrush" Color="{StaticResource ForgroundDark}" />
+
+    <Color x:Key="WordBlue">#3099c5</Color>
+    <SolidColorBrush x:Key="WordBlueBrush" Color="{StaticResource WordBlue}" />
+
+    <Color x:Key="WordOrange">#ffa800</Color>
+    <SolidColorBrush x:Key="WordOrangeBrush" Color="{StaticResource WordOrange}" />
+
+    <Color x:Key="WordRed">#ff4477</Color>
+    <SolidColorBrush x:Key="WordRedBrush" Color="{StaticResource WordRed}" />
+
+    <Color x:Key="WordGreen">#00c541</Color>
+    <SolidColorBrush x:Key="WordGreenBrush" Color="{StaticResource WordGreen}" />
+
 </ResourceDictionary>
