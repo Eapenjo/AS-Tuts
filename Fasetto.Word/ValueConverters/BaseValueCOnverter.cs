@@ -9,7 +9,7 @@ namespace Fasetto.Word
     /// A base value converter that allows for direct XAML usage
     /// </summary>
     /// <typeparam name="T">The type of this valud converter</typeparam>
-    public abstract class BaseValueCOnverter<T> : MarkupExtension, IValueConverter
+    public abstract class BaseValueConverter<T> : MarkupExtension, IValueConverter
         where T : class, new()
     {
 

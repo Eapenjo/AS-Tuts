@@ -7,7 +7,7 @@ namespace Fasetto.Word
     /// <summary>
     /// Converts the <see cref="ApplicationPage"/> to a actial view/page
     /// </summary>
-    public class ApplicationPageValueConverter : BaseValueCOnverter<ApplicationPageValueConverter>
+    public class ApplicationPageValueConverter : BaseValueConverter<ApplicationPageValueConverter>
     {
         public override object Convert(object value, Type targetType, object parameter, CultureInfo culture)
         {
