@@ -6,15 +6,15 @@ namespace Fasetto.Word
     /// <summary>
     /// A basic command that runs an Action
     /// </summary>
-    public class RelayCommand : ICommand
+    public class RelayParameterizedCommand : ICommand
     {
         
         #region Private Members
-        
+       
         /// <summary>
         /// The action to run
         /// </summary>
-        private Action mAction;
+        private Action<object> mAction;
         
         #endregion
         
@@ -33,15 +33,15 @@ namespace Fasetto.Word
         /// Default Constuctor
         /// </summary>
         /// <param name=""></param>
-        public RelayCommand(Action action)
+        public RelayParameterizedCommand(Action<object> action)
         {
             mAction = action;
         }
-       
+        
         #endregion
 
         #region Command Methods
-        
+
         /// <summary>
         /// A relay command can always execute
         /// </summary>
@@ -58,7 +58,7 @@ namespace Fasetto.Word
         /// <param name="parameter"></param>
         public void Execute(object parameter)
         {
-            mAction();
+            mAction(parameter);
         }
         
         #endregion
